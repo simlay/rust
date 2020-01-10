@@ -48,6 +48,7 @@ pub mod abi;
 mod android_base;
 mod apple_base;
 mod apple_ios_base;
+mod apple_watchos_base;
 mod arm_base;
 mod cloudabi_base;
 mod dragonfly_base;
@@ -434,6 +435,8 @@ supported_targets! {
     ("armv7-apple-ios", armv7_apple_ios),
     ("armv7s-apple-ios", armv7s_apple_ios),
     ("x86_64-apple-ios-macabi", x86_64_apple_ios_macabi),
+    ("x86_64-apple-watchos", x86_64_apple_watchos),
+    ("armv7k-apple-watchos", armv7k_apple_watchos),
 
     ("armebv7r-none-eabi", armebv7r_none_eabi),
     ("armebv7r-none-eabihf", armebv7r_none_eabihf),
